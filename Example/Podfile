@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'BALoadingView_Example', :exclusive => true do
+  pod "BALoadingView", :path => "../"
+end
+
+target 'BALoadingView_Tests', :exclusive => true do
+  pod "BALoadingView", :path => "../"
+
+  
+end

@@ -6,8 +6,8 @@
 [![Platform](https://img.shields.io/cocoapods/p/BALoadingView.svg?style=flat)](http://cocoapods.org/pods/BALoadingView)
 
 ## Overview
-![example1]()
-![example2]()
+![example1](https://github.com/antiguab/BALoadingView/blob/master/readmeAssets/example1.gif)
+![example2](https://github.com/antiguab/BALoadingView/blob/master/readmeAssets/example2.gif)
 
 
 A UIView that offers several loading animations.
@@ -50,11 +50,11 @@ BALoadingView *view = [[BALoadingView alloc] initWithFrame:self.view.frame];
 
 This creates the following animation/button by default:
 
-![example3a]()
+![example3a](https://github.com/antiguab/BALoadingView/blob/master/readmeAssets/example3a.gif)
 
 Passing the `BACircleAnimationSemiCircle` enum produces:
 
-![example3b]()
+![example3b](https://github.com/antiguab/BALoadingView/blob/master/readmeAssets/example3b.gif)
 
 
 #### stopAnimation
@@ -79,7 +79,7 @@ self.loadingView.segmentColor = [UIColor whiteColor];
 ```
 This creates this view:
 
-![example4]()
+![example4](https://github.com/antiguab/BALoadingView/blob/master/readmeAssets/example4.gif)
 
 #### Clockwise 
 
@@ -94,7 +94,7 @@ self.loadingView.segmentColor = [UIColor whiteColor];
 ```
 This creates this view:
 
-![example5]()
+![example5](https://github.com/antiguab/BALoadingView/blob/master/readmeAssets/example5.gif)
 
 #### Segment Color 
 
@@ -114,7 +114,7 @@ self.loadingView.segmentColor = [UIColor whiteColor];
 
 The animation looks like this:
 
-![example6]()
+![example6](https://github.com/antiguab/BALoadingView/blob/master/readmeAssets/example6.gif)
 
 ## Author
 

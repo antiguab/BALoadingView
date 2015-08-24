@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
                           A UIView that offers several loading animations.
                        DESC
 
-  s.homepage         = "https://github.com/antiguab/BALoadingView"
+  s.homepage        = "https://github.com/antiguab/BALoadingView"
   s.screenshots     = "https://github.com/antiguab/BALoadingView/blob/master/readmeAssets/screenshot1.png","https://github.com/antiguab/BALoadingView/blob/master/readmeAssets/screenshot2.png","https://github.com/antiguab/BALoadingView/blob/master/readmeAssets/screenshot3.png"
   s.license          = 'MIT'
   s.author           = { "Bryan Antigua" => "antigua.b@gmail.com" }
@@ -34,7 +34,6 @@ Pod::Spec.new do |s|
     'BALoadingView' => ['Pod/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.frameworks = 'UIKit'
 end

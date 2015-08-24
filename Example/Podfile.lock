@@ -1,0 +1,14 @@
+PODS:
+  - BALoadingView (0.1.0)
+
+DEPENDENCIES:
+  - BALoadingView (from `../`)
+
+EXTERNAL SOURCES:
+  BALoadingView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BALoadingView: ae25a50bf8ac85b9bdc314c6d90b8f98dcb7896a
+
+COCOAPODS: 0.38.2

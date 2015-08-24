@@ -1,27 +1,100 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="whP-gf-Uak">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="ADAM.CG PRO.otf">
+            <string>ADAM.CGPRO</string>
+            <string>ADAM.CGPRO</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="wQg-tq-qST">
+        <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="whP-gf-Uak" customClass="BAViewController" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="BAViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="uEw-UM-LJ8"/>
-                        <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8dX-dG-xhe">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dkT-29-czb" customClass="BALoadingView">
+                                <rect key="frame" x="278" y="323" width="44" height="44"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="AV8-Vo-716"/>
+                                    <constraint firstAttribute="width" constant="44" id="mqZ-Kg-SwN"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qby-1j-Hqi">
+                                <rect key="frame" x="31" y="534" width="538" height="27"/>
+                                <fontDescription key="fontDescription" name="ADAM.CGPRO" family="ADAM.CG PRO" pointSize="15"/>
+                                <state key="normal" title="Change Animation">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="switchLoadingAnimation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kl1-4a-Rhk"/>
+                                </connections>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Bfq-70-e0Q">
+                                <rect key="frame" x="29" y="491" width="542" height="31"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="transformAnimation:" destination="BYZ-38-t0r" eventType="valueChanged" id="4M2-7C-oU9"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BALoadingView" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="40s-bR-6eG">
+                                <rect key="frame" x="31" y="58" width="538" height="30"/>
+                                <fontDescription key="fontDescription" name="ADAM.CGPRO" family="ADAM.CG PRO" pointSize="30"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="40s-bR-6eG" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="38" id="3Yp-OL-Vfl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8dX-dG-xhe" secondAttribute="trailing" constant="-16" id="4IF-W3-nqP"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Qby-1j-Hqi" secondAttribute="bottom" constant="39" id="ADE-RL-bc3"/>
+                            <constraint firstItem="8dX-dG-xhe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="ArJ-1m-vAT"/>
+                            <constraint firstAttribute="centerX" secondItem="dkT-29-czb" secondAttribute="centerX" id="C4F-kM-71f"/>
+                            <constraint firstItem="Bfq-70-e0Q" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="FPh-a7-u9U"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Qby-1j-Hqi" secondAttribute="trailing" constant="15" id="IjT-Me-TND"/>
+                            <constraint firstItem="Qby-1j-Hqi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="Lut-9v-XUp"/>
+                            <constraint firstItem="8dX-dG-xhe" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="SYV-N8-vU5"/>
+                            <constraint firstAttribute="centerY" secondItem="8dX-dG-xhe" secondAttribute="centerY" id="Wow-V5-Bp4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="40s-bR-6eG" secondAttribute="trailing" constant="15" id="awt-q9-4IN"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8dX-dG-xhe" secondAttribute="bottom" id="eYA-gX-XNc"/>
+                            <constraint firstAttribute="centerX" secondItem="8dX-dG-xhe" secondAttribute="centerX" id="fVW-8F-xrQ"/>
+                            <constraint firstAttribute="centerY" secondItem="dkT-29-czb" secondAttribute="centerY" constant="-45" id="i38-Op-gI7"/>
+                            <constraint firstItem="Qby-1j-Hqi" firstAttribute="top" secondItem="Bfq-70-e0Q" secondAttribute="bottom" constant="13" id="ukr-Qa-6nK"/>
+                            <constraint firstItem="40s-bR-6eG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="x8e-bJ-WN3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Bfq-70-e0Q" secondAttribute="trailing" constant="15" id="zWL-g7-buq"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Wow-V5-Bp4"/>
+                                <exclude reference="fVW-8F-xrQ"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="backgroundView" destination="8dX-dG-xhe" id="cgI-8B-Qy9"/>
+                        <outlet property="changeAnimationButton" destination="Qby-1j-Hqi" id="XAH-id-y38"/>
+                        <outlet property="loadingView" destination="dkT-29-czb" id="Zcv-AN-i7a"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="433"/>
         </scene>
     </scenes>
 </document>

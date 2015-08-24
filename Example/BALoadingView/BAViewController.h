@@ -7,7 +7,13 @@
 //
 
 @import UIKit;
+#import "BALoadingView.h"
 
 @interface BAViewController : UIViewController
+@property (strong, nonatomic) IBOutlet BALoadingView *loadingView;
+- (IBAction)switchLoadingAnimation:(id)sender;
+- (IBAction)transformAnimation:(id)sender;
+@property (strong, nonatomic) IBOutlet UIButton *changeAnimationButton;
+@property (strong, nonatomic) IBOutlet UIImageView *backgroundView;
 
 @end

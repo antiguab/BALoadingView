@@ -1,0 +1,6 @@
+framework module BALoadingView {
+  umbrella header "BALoadingView-umbrella.h"
+
+  export *
+  module * { export * }
+}

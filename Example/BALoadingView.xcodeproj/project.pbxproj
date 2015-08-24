@@ -21,8 +21,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		BA4F85781AC9C8B6D00009DD /* Pods_BALoadingView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B9299B9C0AC0D325AB0FDD6 /* Pods_BALoadingView_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		D08701291B8A9BAC008ADFF3 /* ADAM.CG PRO.otf in Resources */ = {isa = PBXBuildFile; fileRef = D08701281B8A9BAC008ADFF3 /* ADAM.CG PRO.otf */; };
+		D0B1EAD21B87A4E100F6BF3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B1EAD11B87A4E100F6BF3D /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +42,7 @@
 		4C05BC1AF30396ABDAB1856E /* Pods_BALoadingView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BALoadingView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		572E3F1008223502DCF19731 /* Pods-BALoadingView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BALoadingView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BALoadingView_Tests/Pods-BALoadingView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5B9299B9C0AC0D325AB0FDD6 /* Pods_BALoadingView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BALoadingView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6003F58A195388D20070C39A /* BALoadingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = BALoadingView.app; path = BALoadingView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* BALoadingView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BALoadingView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -54,15 +55,16 @@
 		6003F5A5195388D20070C39A /* BAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* BAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = BALoadingView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* BALoadingView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BALoadingView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A91093E83C47B98FB62F7BFF /* Pods-BALoadingView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BALoadingView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BALoadingView_Example/Pods-BALoadingView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BE39FDFEC306F9997E93E596 /* BALoadingView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BALoadingView.podspec; path = ../BALoadingView.podspec; sourceTree = "<group>"; };
+		D08701281B8A9BAC008ADFF3 /* ADAM.CG PRO.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ADAM.CG PRO.otf"; sourceTree = "<group>"; };
+		D0B1EAD11B87A4E100F6BF3D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D6DF687159B69979F4A702CA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F3FF7E2DE7AF22EE8E0258F6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,8 +121,8 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* BALoadingView.app */,
-				6003F5AE195388D20070C39A /* Tests.xctest */,
+				6003F58A195388D20070C39A /* BALoadingView_Example.app */,
+				6003F5AE195388D20070C39A /* BALoadingView_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,9 +145,10 @@
 			children = (
 				6003F59C195388D20070C39A /* BAAppDelegate.h */,
 				6003F59D195388D20070C39A /* BAAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* BAViewController.h */,
 				6003F5A6195388D20070C39A /* BAViewController.m */,
+				D08701281B8A9BAC008ADFF3 /* ADAM.CG PRO.otf */,
+				D0B1EAD11B87A4E100F6BF3D /* Main.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -213,7 +216,7 @@
 			);
 			name = BALoadingView_Example;
 			productName = BALoadingView;
-			productReference = 6003F58A195388D20070C39A /* BALoadingView.app */;
+			productReference = 6003F58A195388D20070C39A /* BALoadingView_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* BALoadingView_Tests */ = {
@@ -234,7 +237,7 @@
 			);
 			name = BALoadingView_Tests;
 			productName = BALoadingViewTests;
-			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* BALoadingView_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -276,8 +279,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				D0B1EAD21B87A4E100F6BF3D /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				D08701291B8A9BAC008ADFF3 /* ADAM.CG PRO.otf in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

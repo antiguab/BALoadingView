@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "BALoadingView"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "A UIView with loading animations."
 
 # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.author           = { "Bryan Antigua" => "antigua.b@gmail.com" }
   s.source           = { :git => "https://github.com/antiguab/BALoadingView.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '8.0'
+  s.platform     = :ios, '8.4'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'

@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage        = "https://github.com/antiguab/BALoadingView"
-  s.screenshots     = "https://github.com/antiguab/BALoadingView/blob/master/readmeAssets/screenshot1.png","https://github.com/antiguab/BALoadingView/blob/master/readmeAssets/screenshot2.png","https://github.com/antiguab/BALoadingView/blob/master/readmeAssets/screenshot3.png"
+  s.screenshots     = "https://github.com/antiguab/BALoadingView/blob/master/readmeAssets/screenshot1.png?raw=true","https://github.com/antiguab/BALoadingView/blob/master/readmeAssets/screenshot2.png?raw=true","https://github.com/antiguab/BALoadingView/blob/master/readmeAssets/screenshot3.png?raw=true"
   s.license          = 'MIT'
   s.author           = { "Bryan Antigua" => "antigua.b@gmail.com" }
   s.source           = { :git => "https://github.com/antiguab/BALoadingView.git", :tag => s.version.to_s }

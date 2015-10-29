@@ -25,6 +25,7 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 #pragma mark - Lifecycle
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self setNeedsStatusBarAppearanceUpdate];
     [self configureButton];
     self.firstLoad = YES;
     self.animationType = BACircleAnimationFullCircle;
@@ -46,6 +47,10 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (UIStatusBarStyle) preferredStatusBarStyle {
+    return UIStatusBarStyleLightContent;
 }
 
 #pragma mark - Private

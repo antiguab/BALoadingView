@@ -1,5 +1,5 @@
 PODS:
-  - BALoadingView (0.1.0)
+  - BALoadingView (0.1.1)
 
 DEPENDENCIES:
   - BALoadingView (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BALoadingView: 2bfd98b5739dbc1d931e15c6a2d0d4d19f0a195d
+  BALoadingView: 181325648e67358b06dcedbc1cedfaeee35f8398
 
 COCOAPODS: 0.38.2

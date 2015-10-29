@@ -182,6 +182,7 @@
         CAShapeLayer *layer = self.levels[i];
         [layer removeAllAnimations];
         [layer removeFromSuperlayer];
+        layer.lineCap = kCALineCapButt;
         if(self.syncTimer) {
             [self.syncTimer invalidate];
             self.syncTimer = nil;

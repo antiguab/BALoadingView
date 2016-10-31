@@ -122,5 +122,5 @@ Bryan Antigua, antigua.B@gmail.com - [bryanantigua.com](bryanantigua.com)
 
 ## License
 
-BALoadingView is available under the MIT license. See the LICENSE file for more info.
+`BALoadingView` is available under the MIT license. See the LICENSE file for more info.
 
